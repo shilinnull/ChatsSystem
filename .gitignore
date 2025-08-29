@@ -1,6 +1,4 @@
 
 CMakeLists.txt.user*
 
-build/
-
-
+ChatsSystem/build/
