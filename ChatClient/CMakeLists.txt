@@ -11,6 +11,14 @@ qt_add_executable(ChatClient
     mainwidget.cpp
     mainwidget.h
     model/data.h
+    resource.qrc
+)
+
+qt_add_resources(
+    ChatClient
+    PREFIX "/"
+    FILES
+    resource/image # 添加路径
 )
 
 target_link_libraries(ChatClient
